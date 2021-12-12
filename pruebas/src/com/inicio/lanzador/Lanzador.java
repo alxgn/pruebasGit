@@ -1,10 +1,12 @@
 package com.inicio.lanzador;
 
+import com.inicio.comunes.Traceador;
+
 public class Lanzador {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hola mundo");
+		Traceador traza = new Traceador();
+		traza.tracea("Hola mundo");
 	}
 
 }

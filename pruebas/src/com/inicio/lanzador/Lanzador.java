@@ -3,8 +3,8 @@ package com.inicio.lanzador;
 public class Lanzador {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hola mundo");
+		String saludo ="Hola mundo";
+		System.out.println(saludo);
 	}
 
 }
